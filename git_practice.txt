@@ -1,12 +1,20 @@
 Git practice file
 name: sneha gujjar
-cousre:BCA
+course:BCA
 Interest : devops and cloud
 git commands i learn:
 -git init
 -git status
 -git add .
 -git commit -m "message"
--git push origin main
-This file is created to practice Github push.
-that is my file...................
+-git push origin main / git push -u origin main
+-git restore <file name>
+-git remote -v
+to set url -> git remote set-url origin https:// pat(personal access token)@github.com/your repo
+also -> git add origin
+git pull origin main
+# fixing email/ID issues
+git config --global --unset user.email/user.name
+-->git config --global user.email"your github email@gmail.com"/"user name"
+##make new commit
+git commit --ammend --reset -author git push --force

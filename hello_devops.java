@@ -12,4 +12,4 @@ public class hello_devops {
         System.out.println("Pushed to github successfully");
     }
     }
-//this is java program east and simple 
+//this is java program easy and simple 
